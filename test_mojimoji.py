@@ -21,5 +21,5 @@ def test_han_to_zen():
     eq_(u'パピプペポ', mojimoji.han_to_zen(u'ﾊﾟﾋﾟﾌﾟﾍﾟﾎﾟ'))
     eq_(u'０１２３', mojimoji.han_to_zen(u'0123'))
     eq_(u'ａｂｃＡＢＣ', mojimoji.han_to_zen(u'abcABC'))
-    eq_(u'．，：；’”／＝＆＠％（', mojimoji.han_to_zen(u'.,:;\'"/=&@%('))
+    eq_(u'．，：；’”／＝＆＠％（「', mojimoji.han_to_zen(u'.,:;\'"/=&@%(「'))
     eq_(u'あいうえお', mojimoji.han_to_zen(u'あいうえお'))
